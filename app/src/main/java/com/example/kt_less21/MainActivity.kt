@@ -50,7 +50,6 @@ class MainActivity : AppCompatActivity() {
                             listView.visibility = View.GONE
                         }
 
-                        // Встановлюємо адаптер для RecyclerView
                         listView.adapter = myAdapter
                     }
                 } else {
